@@ -5,9 +5,9 @@ namespace EmpProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Employee wage caluclation");
             EmployeeAttendence e = new EmployeeAttendence();
-            e.Attendance();
+            int wage= e.totalwage;
+            Console.WriteLine(wage);
             Console.ReadLine();
         }
     }
